@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Juego3 {
 
-public Juego() {
+public Juego3() {
 
  Scanner sc = new Scanner(System.in);
 
