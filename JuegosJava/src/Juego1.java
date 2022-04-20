@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Juego1 {
 	
-	public static void main(String[] args) {
+	public Juego1() {
 	
 	    System.out.println("'SUMA DOS NÚMEROS'");
 	
@@ -12,7 +12,7 @@ public class Juego1 {
 	    int n2 = 0;
 	    int resultado;
 	
-	    System.out.println("Introduce un número entero: ");
+	    System.out.println("Introduce un n�mero entero: ");
 	    if (sc.hasNextInt()) {
 	        n1 = sc.nextInt();
 	        sc.nextLine();
