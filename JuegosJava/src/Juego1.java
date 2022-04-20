@@ -4,7 +4,7 @@ public class Juego1 {
 	
 	public static void main(String[] args) {
 	
-		System.out.println("'SUMA DOS NÚMEROS'");
+	    System.out.println("'SUMA DOS NÃšMEROS'");
 	
 	    Scanner sc = new Scanner(System.in);
 	
@@ -12,13 +12,13 @@ public class Juego1 {
 	    int n2 = 0;
 	    int resultado;
 	
-	    System.out.println("Introduce un número entero: ");
+	    System.out.println("Introduce un nÃºmero entero: ");
 	    if (sc.hasNextInt()) {
 	        n1 = sc.nextInt();
 	        sc.nextLine();
 	    }
 	
-	    System.out.println("Introduce otro número entero: ");
+	    System.out.println("Introduce otro nÃºmero entero: ");
 	    if (sc.hasNextInt()) {
 	        n2 = sc.nextInt();
 	        sc.nextLine();
