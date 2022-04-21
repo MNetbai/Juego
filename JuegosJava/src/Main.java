@@ -8,8 +8,8 @@ public class Main {
 		int opcion = 0;
 		
 		System.out.println("Elige uno de los siguientes juegos: ");
-		System.out.println("1) Suma dos números");
-		System.out.println("2) Juego 2");
+		System.out.println("1) Acierta el resultado");
+		System.out.println("2) Juego de Jaime");
 		System.out.println("3) Adivina un número entre 1 y 100");
 		
 		do {
