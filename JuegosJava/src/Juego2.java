@@ -13,18 +13,12 @@ public class Juego2 {
 		}while(eleccion<0 && eleccion>1);
 		
 		System.out.println("............. Tirando la moneda .....................");
-		
+		String resultado = (aleatorio == 0) ? "Cara":"Cruz";
 		if(eleccion == aleatorio) {
-			System.out.println("Has tenido mucha suerte ,ha salido ");
-			if(aleatorio == 0) {
-				System.out.printf("Cara");
-			}else System.out.printf("Cruz");
+			System.out.println("Has tenido mucha suerte ,ha salido " + resultado);
 		}else {
-			System.out.printf("No es lo tuyo esto de tirar monedas...");
+			System.out.printf("No es lo tuyo esto de tirar monedas, ha salido " + resultado);
 		}
-		
-		
-		
 		
 		
 	}
